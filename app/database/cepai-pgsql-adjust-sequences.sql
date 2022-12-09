@@ -1,0 +1,13 @@
+SELECT setval('email_template_id_seq', coalesce(max(id),0) + 1, false) FROM email_template;
+SELECT setval('tb_area_porto_id_area_porto_seq', coalesce(max(id_area_porto),0) + 1, false) FROM tb_area_porto;
+SELECT setval('tb_cidade_id_cidade_seq', coalesce(max(id_cidade),0) + 1, false) FROM tb_cidade;
+SELECT setval('tb_complemento_id_complemento_seq', coalesce(max(id_complemento),0) + 1, false) FROM tb_complemento;
+SELECT setval('tb_empresa_id_empresa_seq', coalesce(max(id_empresa),0) + 1, false) FROM tb_empresa;
+SELECT setval('tb_gravidade_id_gravidade_seq', coalesce(max(id_gravidade),0) + 1, false) FROM tb_gravidade;
+SELECT setval('tb_midia_ocorrencia_id_midia_ocorrencia_seq', coalesce(max(id_midia_ocorrencia),0) + 1, false) FROM tb_midia_ocorrencia;
+SELECT setval('tb_ocorrencia_id_ocorrencia_seq', coalesce(max(id_ocorrencia),0) + 1, false) FROM tb_ocorrencia;
+SELECT setval('tb_perfil_usuario_id_perfil_usuario_seq', coalesce(max(id_perfil_usuario),0) + 1, false) FROM tb_perfil_usuario;
+SELECT setval('tb_simulado_id_simulado_seq', coalesce(max(id_simulado),0) + 1, false) FROM tb_simulado;
+SELECT setval('tb_tipo_ocorrencia_id_tipo_ocorrencia_seq', coalesce(max(id_tipo_ocorrencia),0) + 1, false) FROM tb_tipo_ocorrencia;
+SELECT setval('tb_uf_id_uf_seq', coalesce(max(id_uf),0) + 1, false) FROM tb_uf;
+SELECT setval('tb_usuario_id_usuario_seq', coalesce(max(id_usuario),0) + 1, false) FROM tb_usuario;

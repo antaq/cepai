@@ -1,0 +1,11 @@
+.imgocorrencia{
+    height: 100%;
+}
+
+/*div.col-sm-4.col-lg-2.fb-field-container.col-form-label.control-label, div.col-sm-8.col-lg-10.fb-field-container {*/
+/*    justify-content: center !important;*/
+/*}*/
+
+#builder-layout div:not(.beditorcss).kanban-board{
+    display: flex;
+}
